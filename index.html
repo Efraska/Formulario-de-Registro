@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      crossorigin="anonymous"
+    />
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <div class="title">Get Started</div>
+            <!-- User Name input -->
+            <div>
+                <label for="username">User Name</label>
+                <i class="fas fa-user"></i>
+
+                <input 
+                    type="text"
+                    name="username"
+                    id="username"
+                    placeholder="Joy Shaheb" 
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+            <!-- Email Input -->
+            <div>
+                <label for="email">Email</label>
+                <i class="far fa-envelope"></i>
+
+                <input 
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="abc@gmail.com"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+            <!-- Password input -->
+            <div>
+                <label for="password">Password</label>
+                <i class="fas fa-lock"></i>
+
+                <input 
+                    type="password"
+                    name="password"
+                    id="password"
+                    placeholder="Password here"
+                />
+
+                <i class="fas fa-exclamation-circle failure-icon"></i>
+                <i class="fas fa-check-circle success-icon"></i>
+
+                <div class="error"></div>
+
+            </div>
+
+            <form>
+                <!-- other code are here -->
+
+                <button id="btn" type="submit">Submit</button>
+                
+            </form>
+        </form>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
