@@ -141,3 +141,47 @@ span {
     color: #f2796e;
     cursor: pointer;
 }
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+/**
+* ! style rules for content section
+**/
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #f2796e;
+    width: 55%;
+    min-height: 100vh;
+    padding: 10px 20px;
+}
+
+form {
+    width: 45%;
+    max-width: none;
+}
+
+.image {
+    background-image: url("../img/illustration.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* border: 2px solid black; */
+    height: 65%;
+}
+
+.text {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+form {
+    width: 45%;
+    max-width: none;
+}
