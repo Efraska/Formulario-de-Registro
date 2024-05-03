@@ -99,3 +99,45 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+/**
+* ! style rules for social section
+**/
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.btn-1, .btn-2 {
+    padding: 10px 5px;
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.btn-2 {
+    background-color: #4f70b5;
+    color: white;
+}
+
+.or {
+    text-align: center;
+}
+
+.question {
+    font-size: 15px;
+}
+
+span {
+    color: #f2796e;
+    cursor: pointer;
+}
