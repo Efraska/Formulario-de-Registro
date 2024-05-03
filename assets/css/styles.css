@@ -181,11 +181,6 @@ form {
     font-size: 18px;
 }
 
-form {
-    width: 45%;
-    max-width: none;
-}
-
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
